@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "registry.example.com/springboot-app"
+        IMAGE_NAME = "bagheeraid/test-jenkins"
         IMAGE_TAG = "${BUILD_NUMBER}"
         NAMESPACE = "default"
         DEPLOYMENT = "springboot"
