@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "bagheeraid/test-jenkins"
-        IMAGE_TAG = "${BUILD_NUMBER}"
+        IMAGE_TAG = "v1.0.0"
         NAMESPACE = "default"
         DEPLOYMENT = "springboot"
     }
