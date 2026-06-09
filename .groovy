@@ -10,12 +10,12 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'master',
-                url: 'https://github.com/bagheera30/test-jenkins.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         git branch: 'master',
+        //         url: 'https://github.com/bagheera30/test-jenkins.git'
+        //     }
+        // }
 
         stage('Build') {
             steps {
